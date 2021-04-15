@@ -1,6 +1,4 @@
-# arithmetic-voyz
-
-📚 我的算法题笔记
+# Algorithm-notes
 
 ## 数据结构
 
