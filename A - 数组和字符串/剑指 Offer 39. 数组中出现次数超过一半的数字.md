@@ -52,7 +52,7 @@ var majorityElement = function(nums) {
 
 ### 哈希
 
-```
+```JavaScript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -76,7 +76,7 @@ var majorityElement = function(nums) {
 
 ## 排序
 
-```
+```JavaScript
 /**
  * @param {number[]} nums
  * @return {number}
