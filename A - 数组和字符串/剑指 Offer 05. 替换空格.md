@@ -1,6 +1,8 @@
 # 剑指 Offer 05. 替换空格
+
 ## 题目
-```
+
+```JavaScript
 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
 
  
@@ -17,8 +19,10 @@
 ```
 
 ## 解答
+
 ### 字符串拼接
-```
+
+```JavaScript
 /**
  * @param {string} s
  * @return {string}
@@ -41,7 +45,7 @@ var replaceSpace = function(s) {
 
 ### 正则
 
-```
+```JavaScript
 /**
  * @param {string} s
  * @return {string}

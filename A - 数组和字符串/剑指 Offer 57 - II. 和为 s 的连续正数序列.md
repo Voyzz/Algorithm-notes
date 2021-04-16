@@ -1,6 +1,8 @@
 # 剑指 Offer 57 - II. 和为 s 的连续正数序列
+
 ## 题目
-```
+
+```JavaScript
 
 输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
 
@@ -24,8 +26,10 @@
 ```
 
 ## 题解
+
 ### 滑动窗口
-```
+
+```JavaScript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -36,7 +40,7 @@ var findContinuousSequence = function(target) {
     let _left = 1,
         _right = 2,
         res = [];
-    
+
     // 等差数列和大于目标值则缩小窗口（左侧+1）
     // 小于则扩大窗口（右侧+1）
     while(_right < target){

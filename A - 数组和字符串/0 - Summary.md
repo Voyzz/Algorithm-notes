@@ -1,4 +1,4 @@
-```
+```JavaScript
 * ✨ unshift和shift的效率比push和pop要慢100倍
     * 可以用push在reverse
 * ✨ 两个栈可以构成一个队列

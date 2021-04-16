@@ -1,6 +1,8 @@
 # 剑指 Offer 53 - I. 在排序数组中查找数字 I
+
 ## 题目
-```
+
+```JavaScript
 统计一个数字在排序数组中出现的次数。
 
  
@@ -21,8 +23,10 @@
 ```
 
 ## 题解
+
 ### 二分法
-```
+
+```JavaScript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -36,7 +40,7 @@ var search = function(nums, target) {
 const getRightMargin = function(nums,target){
     let _left = 0,
         _right = nums.length-1;
-    
+
     while(_left<=_right){
         const _mid = (_left+_right)>>1;
         if(target >= nums[_mid]){

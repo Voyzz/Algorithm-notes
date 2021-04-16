@@ -1,6 +1,8 @@
 # 剑指 Offer 29. 顺时针打印矩阵
+
 ## 题目
-```
+
+```JavaScript
 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
 
  
@@ -22,7 +24,8 @@
 ```
 
 ## 题解
-```
+
+```JavaScript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -45,7 +48,7 @@ var spiralOrder = function(matrix) {
         for(let i=_right;i>=_left;i--) res.push(matrix[_bottom][i])
         if(--_bottom < _top) break;
         for(let i=_bottom;i>=_top;i--) res.push(matrix[i][_left])
-        if(++_left > _right) break;       
+        if(++_left > _right) break;
     }
 
     return res;

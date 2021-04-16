@@ -1,6 +1,8 @@
 # 剑指 Offer 39. 数组中出现次数超过一半的数字
+
 ## 题目
-```
+
+```JavaScript
 数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。
 
  
@@ -21,8 +23,10 @@
 ```
 
 ## 题解
+
 ### 摩尔投票
-```
+
+```JavaScript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -47,6 +51,7 @@ var majorityElement = function(nums) {
 ```
 
 ### 哈希
+
 ```
 /**
  * @param {number[]} nums
@@ -70,6 +75,7 @@ var majorityElement = function(nums) {
 ```
 
 ## 排序
+
 ```
 /**
  * @param {number[]} nums
