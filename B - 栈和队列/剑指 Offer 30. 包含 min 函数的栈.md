@@ -1,6 +1,8 @@
 # 剑指 Offer 30. 包含 min 函数的栈
+
 ## 题目
-```
+
+```JavaScript
 定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
 
  
@@ -30,10 +32,10 @@ minStack.min();   --> 返回 -2.
 ```
 
 ## 题解
-### 辅助栈
-![9ddc57a945568ba506d023d0e7387cf5.png](evernotecid://849303AB-DE4A-407B-BB36-67ADB0B253A4/appyinxiangcom/24827522/ENResource/p332)
 
-```
+### 辅助栈
+
+```JavaScript
 class MinStack {
     public stack1 = [];
     public stack2 = [];
