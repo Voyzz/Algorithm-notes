@@ -1,6 +1,8 @@
 # 剑指 Offer 25. 合并两个排序的链表
+
 ## 题目
-```
+
+```JavaScript
 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
 
 示例1：
@@ -18,8 +20,10 @@
 ```
 
 ## 题解
+
 ### 遍历
-```
+
+```JavaScript
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -52,7 +56,8 @@ var mergeTwoLists = function(l1, l2) {
 ```
 
 ### 分治算法
-```
+
+```JavaScript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

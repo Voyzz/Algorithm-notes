@@ -1,6 +1,8 @@
 # 反转链表 II
+
 ## 题目
-```
+
+```JavaScript
 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
 
 说明:
@@ -13,9 +15,10 @@
 ```
 
 ## 题解
+
 ### 递归
 
-```
+```JavaScript
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {

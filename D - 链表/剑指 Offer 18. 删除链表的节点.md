@@ -1,6 +1,8 @@
 # 剑指 Offer 18. 删除链表的节点
+
 ## 题目
-```
+
+```JavaScript
 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
 
 返回删除后的链表的头节点。
@@ -30,7 +32,7 @@
 
 ## 题解
 
-```
+```JavaScript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

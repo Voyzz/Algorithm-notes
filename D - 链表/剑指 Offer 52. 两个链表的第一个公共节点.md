@@ -1,6 +1,8 @@
 # 剑指 Offer 52. 两个链表的第一个公共节点
+
 ## 题目
-```
+
+```JavaScript
 输入两个链表，找出它们的第一个公共节点。
 
 示例 1：
@@ -35,9 +37,10 @@
 ```
 
 ## 题解
+
 ### 双指针
 
-```
+```JavaScript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

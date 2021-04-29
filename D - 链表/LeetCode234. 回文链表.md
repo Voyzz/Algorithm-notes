@@ -2,8 +2,10 @@
 - 具体到回文链表的判断问题，由于回文的特殊性，可以不完全反转链表，而是仅仅反转部分链表，将空间复杂度降到 O(1)。
 
 # 回文链表
+
 ## 题目
-```
+
+```JavaScript
 
 请判断一个链表是否为回文链表。
 
@@ -19,8 +21,10 @@
 ```
 
 ## 题解
+
 ### 递归
-```
+
+```JavaScript
 var isPalindrome = function(head) {
     let preorder = "",
         postorder = "";
