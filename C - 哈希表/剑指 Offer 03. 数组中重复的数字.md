@@ -1,6 +1,8 @@
 # 剑指 Offer 03. 数组中重复的数字
+
 ## 题目
-```
+
+```JavaScript
 找出数组中重复的数字。
 
 
@@ -23,8 +25,10 @@
 ```
 
 ## 题解
+
 ### key-value
-```
+
+```JavaScript
 /**
  * @param {number[]} nums
  * @return {number}
