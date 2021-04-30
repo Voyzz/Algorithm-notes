@@ -1,6 +1,8 @@
 # 剑指 Offer 27. 二叉树的镜像
+
 ## 题目
-```
+
+```JavaScript
 请完成一个函数，输入一个二叉树，该函数输出它的镜像。
 
 例如输入：
@@ -37,8 +39,10 @@
 ```
 
 ## 题解
+
 ### DFS 递归
-```
+
+```JavaScript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {

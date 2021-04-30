@@ -1,6 +1,8 @@
 # 剑指 Offer 55 - I. 二叉树的深度
+
 ## 题目
-```
+
+```JavaScript
 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
 
 例如：
@@ -27,8 +29,10 @@
 ```
 
 ## 题解
+
 ### DFS
-```
+
+```JavaScript
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -61,7 +65,8 @@ function maxDepth(root: TreeNode | null): number {
 ```
 
 ### 递归
-```
+
+```JavaScript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
