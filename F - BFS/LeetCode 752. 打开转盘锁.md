@@ -1,7 +1,10 @@
 # LeetCode 752. 打开转盘锁
+
 ## 题目
+
 [链接](https://leetcode-cn.com/problems/open-the-lock/)
-```
+
+```JavaScript
 你有一个带有四个圆形拨轮的转盘锁。每个拨轮都有10个数字： '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' 。每个拨轮可以自由旋转：例如把 '9' 变为  '0'，'0' 变为 '9' 。每次旋转都只能旋转一个拨轮的一位数字。
 
 锁的初始数字为 '0000' ，一个代表四个拨轮的数字的字符串。
@@ -40,9 +43,10 @@
 ```
 
 ## 题解
+
 ### BFS
 
-```
+```JavaScript
 var openLock = function(deadends, target) {
     const queue = [];
     const visited = new Map();
@@ -54,10 +58,10 @@ var openLock = function(deadends, target) {
     for(const str of deadends){
         deadends_map.set(str)
     }
-    
+
     while(queue.length !== 0){
         const len = queue.length;
-        
+
         for(let i=0;i<len;i++){
             const curr = queue.shift();
 

@@ -1,6 +1,8 @@
 # 剑指 Offer 32 - II. 从上到下打印二叉树 II
+
 ## 题目
-```
+
+```JavaScript
 从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行。
 
  
@@ -33,8 +35,10 @@
 ```
 
 ## 题解
+
 ### BFS
-```
+
+```JavaScript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,7 +54,7 @@ var levelOrder = function(root) {
     const res = [],queue = [];
     if(root == null) return [];
     queue.push(root);
-    
+
     while(queue.length != 0){
         // 分层
         const level = [];

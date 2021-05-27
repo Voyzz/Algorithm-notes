@@ -1,7 +1,10 @@
 # LeetCode 111. 二叉树的最小深度
+
 ## 题目
+
 [111](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
-```
+
+```JavaScript
 给定一个二叉树，找出其最小深度。
 
 最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
@@ -22,9 +25,10 @@
 ```
 
 ## 题解
+
 ### BFS
 
-```
+```JavaScript
 var minDepth = function(root) {
     if(root == null) return 0;
 
