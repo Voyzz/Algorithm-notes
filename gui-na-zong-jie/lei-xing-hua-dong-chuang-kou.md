@@ -2,7 +2,7 @@
 description: sliding window
 ---
 
-# 类型 - 滑动窗口
+# 滑动窗口
 
 ## 框架
 
