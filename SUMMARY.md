@@ -13,3 +13,16 @@
 * [BFS](gui-na-zong-jie/bfs.md)
 * [贪心算法](gui-na-zong-jie/tan-xin-suan-fa.md)
 
+## 排序算法
+
+* [冒泡排序](pai-xu-suan-fa/mao-pao-pai-xu.md)
+* [选择排序](pai-xu-suan-fa/xuan-ze-pai-xu.md)
+* [插入排序](pai-xu-suan-fa/cha-ru-pai-xu.md)
+* [希尔排序](pai-xu-suan-fa/xi-er-pai-xu.md)
+* [归并排序](pai-xu-suan-fa/gui-bing-pai-xu.md)
+* [快速排序](pai-xu-suan-fa/kuai-su-pai-xu.md)
+* [堆排序](pai-xu-suan-fa/dui-pai-xu.md)
+* [计数排序](pai-xu-suan-fa/ji-shu-pai-xu.md)
+* [桶排序](pai-xu-suan-fa/tong-pai-xu.md)
+* [基数排序](pai-xu-suan-fa/ji-shu-pai-xu-1.md)
+
