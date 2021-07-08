@@ -26,3 +26,9 @@
 * [桶排序](pai-xu-suan-fa/tong-pai-xu.md)
 * [基数排序](pai-xu-suan-fa/ji-shu-pai-xu-1.md)
 
+## 数组
+
+* [数组中第k大的元素](shu-zu/shu-zu-zhong-dikda-de-yuan-su.md)
+* [最长上升子数组](shu-zu/zui-chang-shang-sheng-zi-shu-zu.md)
+* [构建乘积数组](shu-zu/gou-jian-cheng-ji-shu-zu.md)
+
