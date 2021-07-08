@@ -76,3 +76,44 @@
 * [栈的压入、弹出序列](zhan-he-dui-lie/zhan-de-ya-ru-tan-chu-xu-lie.md)
 * [判断括号有效](zhan-he-dui-lie/pan-duan-kuo-hao-you-xiao.md)
 
+## 哈希表
+
+* [第一个只出现一次的字符](ha-xi-biao/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu.md)
+* [数组中重复的数字](ha-xi-biao/shu-zu-zhong-zhong-fu-de-shu-zi.md)
+* [LRU 缓存机制](ha-xi-biao/lru-huan-cun-ji-zhi.md)
+
+## 链表
+
+* [反转链表](lian-biao/fan-zhuan-lian-biao.md)
+* [反转链表部分链表](lian-biao/fan-zhuan-lian-biao-bu-fen-lian-biao.md)
+* [复制带随机指针的链表](lian-biao/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao.md)
+* [复制复杂链表](lian-biao/fu-zhi-fu-za-lian-biao.md)
+* [删除倒数第n个节点](lian-biao/shan-chu-dao-shu-dinge-jie-dian.md)
+* [合并两个排序的链表](lian-biao/he-bing-liang-ge-pai-xu-de-lian-biao.md)
+* [链表倒数第 k 个节点](lian-biao/lian-biao-dao-shu-di-k-ge-jie-dian.md)
+* [两个链表的第一个公共节点](lian-biao/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian.md)
+* [删除链表的节点](lian-biao/shan-chu-lian-biao-de-jie-dian.md)
+* [环形链表入环位置](lian-biao/huan-xing-lian-biao-ru-huan-wei-zhi.md)
+* [链表是否有环](lian-biao/lian-biao-shi-fou-you-huan.md)
+* [判断回文链表](lian-biao/pan-duan-hui-wen-lian-biao.md)
+* [K 个一组翻转链表](lian-biao/k-ge-yi-zu-fan-zhuan-lian-biao.md)
+
+## DFS/回溯算法 <a id="dfs"></a>
+
+* [不重复字母构成字符串](dfs/bu-zhong-fu-zi-mu-gou-cheng-zi-fu-chuan.md)
+* [单词搜索](dfs/dan-ci-sou-suo.md)
+* [岛屿数量](dfs/dao-yu-shu-liang.md)
+* [分割回文串](dfs/fen-ge-hui-wen-chuan.md)
+* [全排列](dfs/quan-pai-lie.md)
+* [数组组合总和](dfs/shu-zu-zu-he-zong-he.md)
+* [子集](dfs/zi-ji.md)
+* [机器人的运动范围](dfs/ji-qi-ren-de-yun-dong-fan-wei.md)
+
+## BFS
+
+* [从上到下打印二叉树](bfs/cong-shang-dao-xia-da-yin-er-cha-shu.md)
+* [从上到下打印二叉树II](bfs/cong-shang-dao-xia-da-yin-er-cha-shu-ii.md)
+* [从上到下打印二叉树III](bfs/cong-shang-dao-xia-da-yin-er-cha-shu-iii.md)
+* [二叉树的最小深度](bfs/er-cha-shu-de-zui-xiao-shen-du.md)
+* [打开转盘锁](bfs/da-kai-zhuan-pan-suo.md)
+

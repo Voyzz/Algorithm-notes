@@ -1,0 +1,52 @@
+# 单词搜索
+
+[单词搜索](https://leetcode-cn.com/problems/word-search/)
+
+
+
+给定一个二维网格和一个单词，找出该单词是否存在于网格中。单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+
+1. 状态变量为一条通路，条件变量为通路的长度
+2. 当通路与目标词汇长度一致时，满足条件
+3. 下一层递归的初始坐标和通路长度由上层递归决定
+
+```javascript
+var exist = function (board, word) {
+  //越界处理
+  board[-1] = []
+  board.push([])
+
+
+  //寻找首个字母
+  for (let y = 0; y < board.length; y++) {
+    for (let x = 0; x < board.length; x++) {
+      if (word[0] === board[y][x] && backtrack(y, x, 0)) return true
+    }
+  }
+  
+  //回溯
+  function backtrack(y, x, i) {
+    //回溯终止
+    if (i + 1 === word.length) return true
+
+
+    //保存字母
+    var tmp = board[y][x]
+    board[y][x] = false
+
+
+    if (board[y][x + 1] === word[i + 1] && backtrack(y, x + 1, i + 1)) return true
+    if (board[y][x - 1] === word[i + 1] && backtrack(y, x - 1, i + 1)) return true
+    if (board[y + 1][x] === word[i + 1] && backtrack(y + 1, x, i + 1)) return true
+    if (board[y - 1][x] === word[i + 1] && backtrack(y - 1, x, i + 1)) return true
+
+
+    //复原字母
+    board[y][x] = tmp
+  }
+
+
+  return false
+};
+```
+
