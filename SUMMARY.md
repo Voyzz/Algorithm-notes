@@ -117,3 +117,19 @@
 * [二叉树的最小深度](bfs/er-cha-shu-de-zui-xiao-shen-du.md)
 * [打开转盘锁](bfs/da-kai-zhuan-pan-suo.md)
 
+## 动态规划
+
+* [打家劫舍I](dong-tai-gui-hua/da-jia-jie-she-i.md)
+* [打家劫舍 II](dong-tai-gui-hua/da-jia-jie-she-ii.md)
+* [打家劫舍 III](dong-tai-gui-hua/da-jia-jie-she-iii.md)
+* [股票问题汇总](dong-tai-gui-hua/gu-piao-wen-ti-hui-zong.md)
+* [零钱兑换](dong-tai-gui-hua/ling-qian-dui-huan.md)
+* [爬楼梯](dong-tai-gui-hua/pa-lou-ti.md)
+* [最大正方形](dong-tai-gui-hua/zui-da-zheng-fang-xing.md)
+* [把数字翻译成字符串](dong-tai-gui-hua/ba-shu-zi-fan-yi-cheng-zi-fu-chuan.md)
+* [丑数](dong-tai-gui-hua/chou-shu.md)
+* [斐波那契数列](dong-tai-gui-hua/fei-bo-na-qi-shu-lie.md)
+* [礼物的最大价值](dong-tai-gui-hua/li-wu-de-zui-da-jia-zhi.md)
+* [圆圈中最后剩下的数字](dong-tai-gui-hua/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi.md)
+* [添加符号得到目标和方法数](dong-tai-gui-hua/tian-jia-fu-hao-de-dao-mu-biao-he-fang-fa-shu.md)
+
