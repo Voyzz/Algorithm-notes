@@ -135,7 +135,6 @@
 
 ## 树
 
-* [【对称二叉树】判断](shu/dui-cheng-er-cha-shu-pan-duan.md)
 * [【二叉树】翻转](shu/er-cha-shu-fan-zhuan.md)
 * [【二叉树】构造by前序中序](shu/er-cha-shu-gou-zao-by-qian-xu-zhong-xu.md)
 * [【二叉树】构造by中序后序](shu/er-cha-shu-gou-zao-by-zhong-xu-hou-xu.md)
@@ -162,7 +161,43 @@
 * [【路径和】为某一值的集合](shu/lu-jing-he-wei-mou-yi-zhi-de-ji-he.md)
 * [【路径和】最大值](shu/lu-jing-he-zui-da-zhi.md)
 * [【平衡二叉树】判断](shu/ping-heng-er-cha-shu-pan-duan.md)
+* [【对称二叉树】判断](shu/dui-cheng-er-cha-shu-pan-duan.md)
 * [【完美二叉树】填充右侧指针](shu/wan-mei-er-cha-shu-tian-chong-you-ce-zhi-zhen.md)
 * [【依赖关系树】打包顺序数组](shu/yi-lai-guan-xi-shu-da-bao-shun-xu-shu-zu.md)
 * [【最大二叉树】构建](shu/zui-da-er-cha-shu-gou-jian.md)
+
+## 位运算
+
+* [比特位计数](wei-yun-suan/bi-te-wei-ji-shu.md)
+* [出现超过一半的数字](wei-yun-suan/chu-xian-chao-guo-yi-ban-de-shu-zi.md)
+* [汉明距离](wei-yun-suan/han-ming-ju-li.md)
+* [Pow\(x, n\)](wei-yun-suan/pow-x-n.md)
+* [不用加减乘除做加法](wei-yun-suan/bu-yong-jia-jian-cheng-chu-zuo-jia-fa.md)
+* [二进制中 1 的个数](wei-yun-suan/er-jin-zhi-zhong-1-de-ge-shu.md)
+* [两个只出现一次的数字](wei-yun-suan/liang-ge-zhi-chu-xian-yi-ci-de-shu-zi.md)
+
+## 贪心算法
+
+* [加油站](tan-xin-suan-fa/jia-you-zhan.md)
+* [剪绳子](tan-xin-suan-fa/jian-sheng-zi.md)
+* [跳跃游戏](tan-xin-suan-fa/tiao-yue-you-xi.md)
+* [无重叠区间](tan-xin-suan-fa/wu-zhong-die-qu-jian.md)
+* [用最少数量的箭引爆气球](tan-xin-suan-fa/yong-zui-shao-shu-liang-de-jian-yin-bao-qi-qiu.md)
+
+## 双指针
+
+* [接雨水](shuang-zhi-zhen/jie-yu-shui.md)
+* [盛最多水的容器](shuang-zhi-zhen/sheng-zui-duo-shui-de-rong-qi.md)
+* [长度最小的连续子数组](shuang-zhi-zhen/chang-du-zui-xiao-de-lian-xu-zi-shu-zu.md)
+* [n数之和](shuang-zhi-zhen/n-shu-zhi-he.md)
+
+## 分治算法
+
+* [为运算表达式设计优先级](fen-zhi-suan-fa/wei-yun-suan-biao-da-shi-she-ji-you-xian-ji.md)
+
+## 二分法
+
+* [缺失的数字](er-fen-fa/que-shi-de-shu-zi.md)
+* [旋转数组的最小元素](er-fen-fa/xuan-zhuan-shu-zu-de-zui-xiao-yuan-su.md)
+* [排序数组中查找左右区间](er-fen-fa/pai-xu-shu-zu-zhong-cha-zhao-zuo-you-qu-jian.md)
 
