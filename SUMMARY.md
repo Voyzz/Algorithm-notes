@@ -50,6 +50,7 @@
 * [最长公共前缀](zi-fu-chuan/zui-chang-gong-gong-qian-zhui.md)
 * [翻转单词顺序](zi-fu-chuan/fan-zhuan-dan-ci-shun-xu.md)
 * [替换空格](zi-fu-chuan/ti-huan-kong-ge.md)
+* [Z字形变换](zi-fu-chuan/z-zi-xing-bian-huan.md)
 
 ## 矩阵
 
